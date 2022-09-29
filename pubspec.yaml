@@ -14,7 +14,8 @@ environment:
 
 dependencies:
   webview_flutter_plus: 
-    path: ../webview_engine
+    git:
+      url: https://github.com/cikalT/flutter-webview-engine
   markdown: ^4.0.1
 
   flutter:
